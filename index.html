@@ -1,16 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- ============== favicon ================ -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
     <title>Todo App : Dhiraj Arya</title>
+
     <!-- =============== Font Awesome ================ -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
 
     <!-- ===================== custom css ===================== -->
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    
-</body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+      <div class="main">
+          <span class="circal"></span>
+          <section class="wrapper">
+              <nav class="header">
+                  <button class="bar">
+            <i class="fa-solid fa-bars-staggered"></i>
+          </button>
+        </nav>
+        <div class="banner">
+          <div class="text">
+            <h1>Dhiraj Arya</h1>
+            <p class="status">Today you have <span>25</span> tasks</p>
+          </div>
+          <div class="img">
+            <img src="/images/boy.png" alt="" />
+          </div>
+        </div>
+        <div class="taskbox">
+            <div class="task active">
+                <div class="img">
+                    <img src="/images/boy.png" alt="">
+                </div>
+                <div class="text">
+                    <h3>Personal</h3>
+                    <p><span id="total_tasks">5</span> tasks</p>
+                    <span id="dots"><i class="fa-solid fa-ellipsis-vertical"></i></span>
+                </div>
+                
+            </div>
+            <div class="task">
+                <div class="img">
+                    <img src="/images/boy.png" alt="">
+                </div>
+                <div class="text">
+                    <h3>Personal</h3>
+                    <p><span id="total_tasks">5</span> tasks</p>
+                    <span id="dots"><i class="fa-solid fa-ellipsis-vertical"></i></span>
+                </div>
+                
+            </div>
+            <div class="task">
+                <div class="img">
+                    <img src="/images/boy.png" alt="">
+                </div>
+                <div class="text">
+                    <h3>Personal</h3>
+                    <p><span id="total_tasks">5</span> tasks</p>
+                    <span id="dots"><i class="fa-solid fa-ellipsis-vertical"></i></span>
+                </div>
+                
+            </div>
+        </div>
+      </section>
+    </div>
+  </body>
 </html>
